@@ -1,0 +1,24 @@
+{
+  "name": "curso-auth-mongoose",
+  "version": "1.0.0",
+  "description": "Proyecto base del curso de autenticación y autorización con Mongoose",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js",
+    "helpers": "node pruebas/01-helpers.js",
+    "probar": "node pruebas/probar-api.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.2"
+  }
+}
