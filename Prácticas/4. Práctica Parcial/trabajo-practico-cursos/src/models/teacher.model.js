@@ -41,8 +41,13 @@ const teacherSchema = new Schema(
         maxlength: 300,
       },
     },
+    deletedAt: {
+      type: Date,
+      default: null,
+    },
   },
   {
+    timestamps: true,
     versionKey: false,
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
